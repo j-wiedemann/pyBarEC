@@ -2335,6 +2335,7 @@ class MainWindow(object):
     study = self.studies[drawing.id_study]
     status = drawing.status
     rdm = study.rdm
+    print rdm.GetCombiMax("M")
     struct = rdm.struct
     units = struct.units
     factor_F = units['F']
@@ -2372,6 +2373,7 @@ class MainWindow(object):
         x /= factor_L
         text2 += "x compris entre %s et %s %s\n" % (xprec, x, unit_L)
         text2 += self.set_equation_string(coefs, factor_L, factor_F, unit_L, unit_F, type)
+        text2 += "Salut c'est moi!"
         xprec = x
       textbuffer.insert(end_iter, text2)
 
