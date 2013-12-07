@@ -12,6 +12,10 @@
 		<materiau alpha="18.5e-6" id="Laiton CuZn5" mv="8300" young="125"/>
 		<materiau alpha="18.5e-6" id="Laiton CuZn40" mv="8300" young="105"/>
 	</group>
+	<group id="Bois">
+		<materiau alpha="55e-6" id="C18" mv="380" young="9"/>
+		<materiau alpha="35.5e-6" id="D30" mv="640" young="10"/>
+	</group>
 	<materiau alpha="9e-6" id="Platine" mv="21450" young="168"/>
 	<materiau alpha="4.5e-6" id="Tungstène" mv="19300" young="406"/>
 	<materiau alpha="16.5e-6" id="Cuivre" mv="8900" young="100"/>

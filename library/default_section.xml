@@ -1,5 +1,8 @@
 <?xml version="1.0" ?>
 <data pyBar="http://open.btp.free.fr/?/pyBar" version="1.15">
+	<group id="Profilé Bois">
+		<profil h="18" id="80X180" igz="3888" m="5.47" s="144"/>
+	</group>
 	<group id="Profilé UPN">
 		<profil h="8" id="UPN 80" igz="106" m="8,65" s="11,02"/>
 		<profil h="10" id="UPN 100" igz="206" m="10,6" s="13,5"/>
